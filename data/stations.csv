@@ -1,0 +1,488 @@
+station_id,name,type,basin,lat,lon,geo_tried
+AHS5020,Myjava - Myjava,AHS,Morava,48.7540345,17.5650224,1
+AWS211806,Myjava,AWS2,Morava,48.7540345,17.5650224,1
+AHS5015,Turá Lúka - Svacenický jarok,AHS,Morava,48.75451,17.5128584,1
+APS215060,Brezová pod Bradlom,APS2,Morava,48.6616437,17.5370299,1
+AHS5022,Jablonica - Myjava,AHS,Morava,48.5587535,20.6100678,1
+APS215080,Jablonica,APS2,Morava,48.5587535,20.6100678,1
+APS215100,Vrbovce,APS2,Morava,48.7994375,17.4688863,1
+AHS5027,Kunov - Teplica,AHS,Morava,48.694568,17.4093722,1
+AWS211805,Senica - Kunov,AWS2,Morava,48.6787557,17.3661529,1
+APS215155,Smrdáky,APS2,Morava,48.7235678,17.3068608,1
+APS215200,Šaštín - Stráže,APS2,Morava,48.6376732,17.1463323,1
+APS214040,Skalica,APS2,Morava,48.8461007,17.2287837,1
+APS214020,Radošovce,APS2,Morava,48.4961452,17.6351963,1
+AWS211800,Holíč,AWS2,Morava,48.8078921,17.162143,1
+AHS5011,Kopčany - Morava,AHS,Morava,48.7877929,17.116995,1
+AWS211835,Moravský Svätý Ján,AWS2,Morava,48.5902924,17.0014417,1
+APS216020,Plavecký Peter,APS2,Morava,48.5364552,17.326356,1
+APS216040,Sološnica,APS2,Morava,48.4652416,17.2310008,1
+AHS5065,Rohožník - Rudavka,AHS,Morava,49.1115086,21.7622178,1
+AHS5072,Veľké Leváre - Rudava,AHS,Morava,48.5032707,17.0022088,1
+AHS5074,Veľké Leváre - Rudava náhon,AHS,Morava,48.5032707,17.0022088,1
+AHS5085,Záhorská Ves - Morava,AHS,Morava,48.3807707,16.8470479,1
+APS216180,Pernek,APS2,Morava,48.3678239,17.1439072,1
+APS216160,Malacky,APS2,Morava,48.4362992,17.0200447,1
+AHS5095,Jakubov - Malina,AHS,Morava,48.4141277,16.9260091,1
+AHS5100,Láb - Močiarka,AHS,Morava,48.3614947,16.9722516,1
+AHS5110,Zohor - Suchý potok,AHS,Morava,48.3182771,16.9830535,1
+AHS5128,Bratislava-Devín-lom - Dunaj,AHS,Dunaj,48.1945211,16.9793192,1
+AWS211810,Bratislava - Mlynská Dolina,AWS2,Dunaj,48.1435026,17.1082867,1
+APS217140,Bratislava - Koliba,APS2,Dunaj,48.1435026,17.1082867,1
+AWS211813,Bratislava - Koliba,AWS2,Dunaj,48.1435026,17.1082867,1
+AHS5138,"Bratislava-Čunovo-hať - Dunaj, hor. hlad.",AHS,Dunaj,48.1435026,17.1082867,1
+AHS5157,Bratislava-Čunovo - Mošonský Dunaj,AHS,Dunaj,48.029636,17.1995727,1
+AHS5149,Hamuliakovo - Dunaj,AHS,Dunaj,48.0376676,17.2517836,1
+AHS5153,Dobrohošť - Dunaj,AHS,Dunaj,47.983335,17.3666631,1
+AWS211818,Gabčíkovo,AWS2,Dunaj,47.8951059,17.5781248,1
+AHS5143,Gabčíkovo - Dunaj,AHS,Dunaj,47.8951059,17.5781248,1
+AHS6830,Zlatná na Ostrove - Dunaj,AHS,Dunaj,47.769836,17.9740132,1
+AWS211858,Hurbanovo,AWS2,Dunaj,47.8761227,18.198313,1
+APS219120,Gbelce,APS2,Dunaj,47.8503723,18.5101905,1
+AWS211884,Mužla,AWS2,Dunaj,47.7925185,18.5977835,1
+AHS6880,Štúrovo - Dunaj,AHS,Dunaj,47.7978002,18.7158785,1
+APS220020,Liptovská Teplička,APS2,Horný Váh,48.9665599,20.089061,1
+AHS5300,Liptovská Teplička - Čierny Váh,AHS,Horný Váh,48.9665599,20.089061,1
+AHS5311,VN Čierny Váh - Čierny Váh,AHS,Horný Váh,,,1
+APS220040,VN Čierny Váh,APS2,Horný Váh,,,1
+AHS5330,Východná - Biely Váh,AHS,Horný Váh,49.0612289,19.8946117,1
+APS220160,Vyšná Boca,APS2,Horný Váh,48.9261529,19.752681,1
+AHS5336,Malužiná - Boca,AHS,Horný Váh,48.9806231,19.7693966,1
+AHS5340,Kráľová Lehota - Boca,AHS,Horný Váh,49.0214973,19.7943391,1
+AHS5370,Liptovský Hrádok - Váh,AHS,Horný Váh,49.0371787,19.7217331,1
+AWS211874,Liptovský Hrádok,AWS2,Horný Váh,49.0371787,19.7217331,1
+AWS211876,Podbanské,AWS2,Horný Váh,49.1435076,19.9019197,1
+AHS5400,Podbanské - Belá,AHS,Horný Váh,49.1435076,19.9019197,1
+AHS5465,Dovalovo - Dovalovec,AHS,Horný Váh,49.0600341,19.7877842,1
+AHS5520,Liptovský Ján - Štiavnica,AHS,Horný Váh,49.0494179,19.6802212,1
+AHS5490,Podtureň - Jamníček,AHS,Horný Váh,49.0556425,19.6924712,1
+AHS5540,Iľanovo - Iľanovianka,AHS,Horný Váh,49.0539587,19.6179136,1
+AHS5550,Liptovský Mikuláš - Váh,AHS,Horný Váh,49.0835785,19.612785,1
+AHS5530,Žiarska dolina - Smrečianka,AHS,Horný Váh,49.1745706,19.7143852,1
+APS221120,Demänovská Dolina - Jasná,APS2,Horný Váh,48.9719516,19.5830227,1
+AHS5590,Liptovský Mikuláš-Demänová - Demänovka,AHS,Horný Váh,49.0596732,19.5815009,1
+AWS211878,Liptovský Mikuláš-Lipt. Ondrašová,AWS2,Horný Váh,49.0835785,19.612785,1
+AHS5600,Liptovský Mikuláš-Lipt. Ondrašová - Jalovecký potok,AHS,Horný Váh,49.0835785,19.612785,1
+AHS5680,Svätý Kríž - Palúdžanka,AHS,Horný Váh,49.0434392,19.5321765,1
+APS221180,Huty,APS2,Horný Váh,49.2215502,19.5760452,1
+AHS5644,Liptovská Sielnica - Kvačianka,AHS,Horný Váh,49.1455044,19.5141698,1
+AHS5650,Prosiek - Prosiečanka,AHS,Horný Váh,49.1474517,19.5014759,1
+AHS5720,Vlachy - Kľačianka,AHS,Horný Váh,49.0930786,19.4744762,1
+APS221240,Partizánska Ľupča - Magurka,APS2,Horný Váh,49.064404,19.4364326,1
+AHS5734,Bešeňová - Váh,AHS,Horný Váh,49.100001,19.435652,1
+AWS211872,Štiavnička (Ružomberok),AWS2,Horný Váh,49.0737082,19.3360596,1
+AWS211908,Liptovská Osada,AWS2,Horný Váh,48.9517015,19.2615598,1
+AHS5780,Hubová - Váh,AHS,Horný Váh,49.1174449,19.1848084,1
+APS221460,Ľubochňa,APS2,Horný Váh,49.1200064,19.1675231,1
+AHS5790,Ľubochňa - Ľubochnianka,AHS,Horný Váh,49.1200064,19.1675231,1
+AWS211868,Oravská Lesná,AWS2,Horný Váh,49.3689979,19.1852951,1
+AHS5795,Zákamenné - Biela Orava,AHS,Horný Váh,49.3880358,19.2946054,1
+APS222043,Novoť,APS2,Horný Váh,49.4280349,19.2634843,1
+AHS5800,Lokca - Biela Orava,AHS,Horný Váh,49.3665668,19.4103479,1
+APS222120,Lokca,APS2,Horný Váh,49.3665668,19.4103479,1
+APS222080,Mútne,APS2,Horný Váh,49.4596226,19.32275,1
+AWS211890,Oravské Veselé,AWS2,Horný Váh,49.4666666,19.3833332,1
+AHS5810,Oravská Jasenica - Veselianka,AHS,Horný Váh,49.3864018,19.4371806,1
+APS222170,Oravská Polhora,APS2,Horný Váh,49.5166666,19.4499999,1
+AHS5816,Oravská Polhora - Polhoranka,AHS,Horný Váh,49.5166666,19.4499999,1
+AWS211869,Rabča,AWS2,Horný Váh,49.4833334,19.4833333,1
+AHS5820,Zubrohlava - Polhoranka,AHS,Horný Váh,49.4450494,19.5116002,1
+AHS5821,Jablonka - Piekielnik,AHS,Horný Váh,48.7257975,17.616433,1
+APS222240,Suchá Hora,APS2,Horný Váh,49.3660791,19.7897018,1
+AHS5826,Trstená - Jelešňa,AHS,Horný Váh,49.3592089,19.6086088,1
+AHS5830,Tvrdošín - Orava,AHS,Horný Váh,49.3341474,19.5554346,1
+APS223060,Oravice,APS2,Horný Váh,49.2982655,19.7475057,1
+AWS211918,Liesek,AWS2,Horný Váh,49.3610205,19.6679205,1
+AHS5840,Trstená - Oravica,AHS,Horný Váh,49.3592089,19.6086088,1
+APS223140,Zuberec,APS2,Horný Váh,49.2601209,19.6142571,1
+AHS5845,Oravský Biely Potok - Studený potok,AHS,Horný Váh,49.2859876,19.5530158,1
+AWS211892,Oravský Podzámok,AWS2,Horný Váh,49.2610972,19.3570525,1
+AHS5848,Oravský Podzámok - Orava,AHS,Horný Váh,49.2610972,19.3570525,1
+APS223280,Zázrivá,APS2,Horný Váh,49.2762228,19.1548037,1
+APS223260,Párnica,APS2,Horný Váh,49.1946899,19.1968319,1
+APS224040,Turčianska Štiavnička,APS2,Horný Váh,49.0863462,19.023593,1
+APS224080,Turček,APS2,Horný Váh,48.7573468,18.9231814,1
+AHS5930,Turček - Turiec,AHS,Horný Váh,48.7573468,18.9231814,1
+AHS5939,Ivančiná - Turiec,AHS,Horný Váh,48.9112957,18.8113246,1
+AWS211897,Turčianske Teplice,AWS2,Horný Váh,48.8614083,18.8608115,1
+AHS5980,Háj - Somolický potok,AHS,Horný Váh,48.6283881,20.8545111,1
+AHS5995,Kláštor pod Znievom - Vríca,AHS,Horný Váh,48.9743989,18.8019261,1
+APS224180,Kláštor pod Znievom,APS2,Horný Váh,48.9743989,18.8019261,1
+AHS6070,Blatnica - Gaderský potok,AHS,Horný Váh,48.9385282,18.9260491,1
+APS224200,Blatnica,APS2,Horný Váh,48.9385282,18.9260491,1
+AWS211893,Žabokreky (pri Martine),AWS2,Horný Váh,,,1
+AHS6130,Martin - Turiec,AHS,Horný Váh,49.0724921,18.929193,1
+APS224295,Martinské hole,APS2,Horný Váh,,,1
+AHS6140,Martin - Pivovarský potok,AHS,Horný Váh,49.0724921,18.929193,1
+AHS5890,Turany - Čiernik,AHS,Horný Váh,49.1163981,19.0391539,1
+AHS6146,Strečno - Váh,AHS,Horný Váh,49.1880017,18.8643093,1
+APS224320,Terchová - Vrátna dolina,APS2,Horný Váh,49.2580251,19.0304784,1
+AHS6148,Belá - Beliansky potok,AHS,Horný Váh,49.1031056,19.814626,1
+AHS6150,Stráža - Varínka,AHS,Horný Váh,49.2270451,18.9113351,1
+AWS211865,Žilina-Vlčince,AWS2,Horný Váh,49.2114755,18.7652139,1
+APS225060,Makov,APS2,Horný Váh,49.3695054,18.4745656,1
+AHS6168,Klokočov - Predmieranka,AHS,Horný Váh,48.8159574,22.0319048,1
+AWS211857,Turzovka,AWS2,Horný Váh,49.4051478,18.6262948,1
+AHS6170,Turzovka - Kysuca,AHS,Horný Váh,49.4051478,18.6262948,1
+APS225140,Skalité,APS2,Horný Váh,49.4970833,18.897943,1
+AWS211866,Čadca-Horelica,AWS2,Horný Váh,49.4254982,18.8162441,1
+AHS6189,Nová Bystrica - Bystrica,AHS,Horný Váh,49.3450356,19.0111197,1
+APS225180,Stará Bystrica,APS2,Horný Váh,49.3461424,18.9381402,1
+AHS6190,Zborov nad Bystricou - Bystrica,AHS,Horný Váh,49.3841368,18.8795895,1
+APS225220,Horný Vadičov,APS2,Horný Váh,49.2666667,18.8833333,1
+AHS6200,Kysucké Nové Mesto - Kysuca,AHS,Horný Váh,49.2999184,18.7865084,1
+APS225260,Nesluša,APS2,Horný Váh,49.3100483,18.7486916,1
+AHS6230,Rajecká Lesná - Lesňanka,AHS,Horný Váh,49.0449528,18.6350654,1
+APS225280,Rajecká Lesná,APS2,Horný Váh,49.0449528,18.6350654,1
+AHS6240,Šuja - Rajčanka,AHS,Horný Váh,49.069543,18.629349,1
+AHS6260,Rajec - Čerňanka,AHS,Horný Váh,49.0886262,18.6352209,1
+AHS6290,Rajecké Teplice - Kunerádsky potok,AHS,Horný Váh,49.1275286,18.6828969,1
+APS225340,Stránske,APS2,Horný Váh,49.1189806,18.7052818,1
+AHS6300,Poluvsie - Rajčanka,AHS,Horný Váh,48.8444234,18.6384954,1
+AHS6340,Žilina-Závodie - Rajčanka,AHS,Horný Váh,49.2151366,18.7198421,1
+AWS211841,Dolný Hričov,AWS2,Horný Váh,49.2319269,18.6323261,1
+AHS6360,Bytča - Petrovička,AHS,Horný Váh,49.2235748,18.5586825,1
+APS226140,Brvnište,APS2,Horný Váh,49.2139762,18.4266984,1
+AHS6362,Jasenica - Papradnianka,AHS,Horný Váh,49.1794644,18.4503987,1
+AHS6370,Prečín - Domanižanka,AHS,Horný Váh,49.0838302,18.519636,1
+AHS6382,Považská Bystrica - Mošteník,AHS,Horný Váh,49.1159316,18.4469936,1
+APS226210,Považská Bystrica-Kúnovec,APS2,Horný Váh,49.0960219,18.4092906,1
+APS226260,Lazy pod Makytou,APS2,Horný Váh,49.2258085,18.2132187,1
+AHS6390,Vydrná - Petrinovec,AHS,Horný Váh,49.2026446,18.2505342,1
+AHS6400,Dohňany - Biela voda,AHS,Horný Váh,49.1468651,18.2882731,1
+APS227020,Pružina,APS2,Horný Váh,49.0165341,18.4760319,1
+AHS6410,Tŕstie - Pružinka,AHS,Horný Váh,48.6512019,19.9880882,1
+AHS6420,Visolaje - Pružinka,AHS,Horný Váh,49.0685677,18.3619468,1
+AWS211862,Beluša,AWS2,Horný Váh,49.065532,18.3279679,1
+APS227080,Zubák,APS2,Horný Váh,49.15,18.2166667,1
+AHS6425,Tuchyňa - Tovarský potok,AHS,Horný Váh,49.0407148,18.2195163,1
+APS227180,Košecké Podhradie,APS2,Horný Váh,48.975362,18.3121215,1
+AHS6450,Horné Srnie - Vlára,AHS,Horný Váh,48.9916169,18.1019375,1
+APS227120,Horné Srnie,APS2,Horný Váh,48.9916169,18.1019375,1
+APS227140,Horná Súča,APS2,Horný Váh,48.9735688,17.9769819,1
+AHS6460,Trenčianske Teplice - Teplička,AHS,Horný Váh,48.9094451,18.1702976,1
+AWS211803,Trenčín,AWS2,Horný Váh,48.8922719,18.0387465,1
+APS228120,Selec,APS2,Horný Váh,48.7855903,17.9901675,1
+APS228020,Bošáca-Zabudišová,APS2,Horný Váh,48.8622121,17.8401591,1
+APS228060,Lubina-Hrnčiarové,APS2,Horný Váh,48.8054231,17.7103715,1
+AHS6473,Hrádok - Hrádocký potok,AHS,Horný Váh,48.6980698,17.8820601,1
+APS228180,Krajné,APS2,Horný Váh,48.7005763,17.6871599,1
+AHS6470,Čachtice - Jablonka,AHS,Horný Váh,48.7138556,17.7871394,1
+AWS211826,Piešťany,AWS2,Dolný Váh,48.5895247,17.8213848,1
+AHS6475,Hlohovec - Váh,AHS,Dolný Váh,48.4278838,17.798782,1
+APS218220,Dobrá Voda,APS2,Dolný Váh,48.5994645,17.5375103,1
+AWS211819,Jaslovské Bohunice,AWS2,Dolný Váh,48.4769283,17.6473684,1
+APS218320,Smolenice,APS2,Dolný Váh,,,0
+APS218440,Častá,APS2,Dolný Váh,,,0
+APS218540,Siladice,APS2,Dolný Váh,,,0
+APS218380,Biely Kostol,APS2,Dolný Váh,,,0
+AWS211833,Modra - Piesok,AWS2,Dolný Váh,,,0
+AWS211815,Pezinok - Grinava,AWS2,Dolný Váh,,,0
+AWS211812,Malý Javorník,AWS2,Dolný Váh,,,0
+AHS5170,Svätý Jur - Šurský kanál,AHS,Dolný Váh,,,0
+AHS5180,Vajnory - Račiansky potok,AHS,Dolný Váh,,,0
+AWS211816,Bratislava - letisko,AWS2,Dolný Váh,48.1435026,17.1082867,1
+APS217490,Blahová,APS2,Dolný Váh,,,0
+AWS211817,Kráľová pri Senci,AWS2,Dolný Váh,,,0
+APS218480,Sládkovičovo,APS2,Dolný Váh,,,0
+AHS6480,Šaľa - Váh,AHS,Dolný Váh,,,0
+AWS211820,Žihárec,AWS2,Dolný Váh,,,0
+APS217720,Kolárovo,APS2,Dolný Váh,,,0
+AHS6775,Kolárovo - Váh,AHS,Dolný Váh,,,0
+APS230240,Zliechov,APS2,Nitra,,,0
+APS230200,Valaská Belá,APS2,Nitra,,,0
+APS230360,Šípkov,APS2,Nitra,,,0
+APS230100,Ráztočno,APS2,Nitra,,,0
+AHS6547,Prievidza - Nitra,AHS,Nitra,,,0
+AWS211867,Prievidza,AWS2,Nitra,,,0
+AHS6550,Handlová - Handlovka,AHS,Nitra,,,0
+APS230260,Nitrianske Rudno,APS2,Nitra,,,0
+AHS6670,Krásna Ves - Bebrava,AHS,Nitra,,,0
+APS230400,Motešice,APS2,Nitra,,,0
+AHS6568,Nováky - Lehotský potok,AHS,Nitra,,,0
+AWS211839,Uhrovec,AWS2,Nitra,,,0
+APS230160,Bystričany,APS2,Nitra,,,0
+AHS6570,Bystričany-Chalmová - Nitra,AHS,Nitra,,,0
+APS230560,Nedašovce,APS2,Nitra,,,0
+APS230520,Zlatníky,APS2,Nitra,,,0
+AHS6640,Chynorany - Nitra,AHS,Nitra,,,0
+APS232020,Malá Lehota,APS2,Nitra,,,0
+APS232100,Skýcov,APS2,Nitra,,,0
+AHS6730,Nitrianska Streda - Nitra,AHS,Nitra,,,0
+AWS211849,Žikava,AWS2,Nitra,,,0
+APS232140,Zlatno,APS2,Nitra,,,0
+APS231160,Radošina,APS2,Nitra,,,0
+AWS211838,Kamanová,AWS2,Nitra,,,0
+APS231140,Horné Lefantovce,APS2,Nitra,,,0
+AHS6800,Zlaté Moravce - Hostiansky potok,AHS,Nitra,,,0
+AHS6750,Čab-Sila - Radošinka,AHS,Nitra,,,0
+AHS6760,Zbehy - Andač,AHS,Nitra,,,0
+APS232160,Tesárske Mlyňany,APS2,Nitra,,,0
+AHS6820,Vieska nad Žitavou - Žitava,AHS,Nitra,,,0
+AWS211856,Mochovce,AWS2,Nitra,,,0
+APS231420,Lehota,APS2,Nitra,,,0
+AWS211855,Nitra - Janíkovce,AWS2,Nitra,,,0
+APS231500,Rastislavice,APS2,Nitra,,,0
+AHS6843,Vlkas - Žitava,AHS,Nitra,,,0
+AWS211883,Veľké Lovce,AWS2,Nitra,,,0
+AHS7220,Zvolen - Zolná,AHS,Hron,,,0
+AWS211938,Telgárt,AWS2,Hron,,,0
+AHS6914,Telgárt - Hron,AHS,Hron,,,0
+APS233060,Pohorelá,APS2,Hron,,,0
+APS233120,Polomka,APS2,Hron,,,0
+APS233160,Pohronská Polhora,APS2,Hron,,,0
+AHS7015,Brezno - Hron,AHS,Hron,,,0
+AWS211917,Brezno,AWS2,Hron,,,0
+APS233217,Čierny Balog - Dobroč,APS2,Hron,,,0
+AHS7030,Čierny Balog - Čierny Hron,AHS,Hron,,,0
+APS234020,Jarabá,APS2,Hron,,,0
+AHS7065,Mýto pod Ďumbierom - Štiavnička,AHS,Hron,,,0
+AHS7060,Bystrá - Bystrianka,AHS,Hron,,,0
+AHS7079,Jasenie - Jaseniansky potok,AHS,Hron,,,0
+APS234070,Jasenie,APS2,Hron,,,0
+APS234090,Chata pod Hrbom,APS2,Hron,,,0
+AHS7090,Ľubietová - Hutná,AHS,Hron,,,0
+APS234120,Slovenská Ľupča,APS2,Hron,,,0
+AWS211894,Donovaly,AWS2,Hron,,,0
+APS234180,Motyčky,APS2,Hron,,,0
+AHS7120,Dolný Harmanec - Harmanec,AHS,Hron,,,0
+APS234160,Dolný Harmanec,APS2,Hron,,,0
+AHS7155,Banská Bystrica - Bystrica,AHS,Hron,,,0
+AHS7170,Banská Bystrica - Tajovský potok,AHS,Hron,,,0
+APS234280,Králiky,APS2,Hron,,,0
+AWS211898,Banská Bystrica,AWS2,Hron,,,0
+AHS7160,Banská Bystrica - Hron,AHS,Hron,,,0
+AWS211903,Sliač - letisko,AWS2,Hron,,,0
+APS235060,Detvianska Huta,APS2,Hron,,,0
+AHS7210,Zolná - Zolná,AHS,Hron,,,0
+APS235080,Poľana (Očová-Pajta),APS2,Hron,,,0
+AWS211904,Vígľaš - Pstruša,AWS2,Hron,,,0
+APS235180,Hrochoť,APS2,Hron,,,0
+APS235240,Dobrá Niva,APS2,Hron,,,0
+AHS7230,Zvolen - Slatina,AHS,Hron,,,0
+AHS7241,Hronská Breznica - Jasenica,AHS,Hron,,,0
+APS236060,Močiar,APS2,Hron,,,0
+APS236200,Sklené Teplice,APS2,Hron,,,0
+AWS211879,Kremnické Bane,AWS2,Hron,,,0
+APS236140,Handlová - Nová Lehota,APS2,Hron,,,0
+AWS211900,Žiar nad Hronom,AWS2,Hron,,,0
+AHS7260,Žiar nad Hronom - Hron,AHS,Hron,,,0
+APS236280,Kľak,APS2,Hron,,,0
+APS236340,Žarnovica,APS2,Hron,,,0
+AHS7290,Brehy - Hron,AHS,Hron,,,0
+APS236380,Hronský Beňadik,APS2,Hron,,,0
+AHS7298,Veľké Kozmálovce - Hron,AHS,Hron,,,0
+AHS7327,Starý Tekov - Perec,AHS,Hron,,,0
+APS237060,Pukanec,APS2,Hron,,,0
+APS237120,Žemberovce,APS2,Hron,,,0
+AHS7310,Kalinčiakovo - Sikenica,AHS,Hron,,,0
+AWS211881,Želiezovce,AWS2,Hron,,,0
+APS237260,Farná,APS2,Hron,,,0
+APS237340,Kamenica nad Hronom,APS2,Hron,,,0
+AWS211926,Málinec,AWS2,Ipeľ,,,0
+AHS7420,Kalinovo - Ipeľ,AHS,Ipeľ,,,0
+AHS7470,Divín - Budinský potok,AHS,Ipeľ,,,0
+AHS7471,Divín - prevod vody z VN Mýtna,AHS,Ipeľ,,,0
+APS238220,Budiná,APS2,Ipeľ,,,0
+APS238080,Cinobaňa,APS2,Ipeľ,,,0
+AWS211927,Lučenec - Boľkovce,AWS2,Ipeľ,,,0
+APS238140,Ožďany,APS2,Ipeľ,,,0
+APS238160,Radzovce,APS2,Ipeľ,,,0
+APS239020,Lipovany,APS2,Ipeľ,,,0
+AHS7490,Horný Tisovník - Tisovník,AHS,Ipeľ,,,0
+APS239060,Horný Tisovník,APS2,Ipeľ,,,0
+APS239160,Bušince,APS2,Ipeľ,,,0
+APS239190,Stredné Plachtince - Španí Laz,APS2,Ipeľ,,,0
+AWS211905,Dolné Plachtince,AWS2,Ipeľ,,,0
+AHS7540,Slovenské Ďarmoty - Ipeľ,AHS,Ipeľ,,,0
+AHS7544,Kosihy nad Ipľom - Veľký potok,AHS,Ipeľ,,,0
+APS240080,Čelovce,APS2,Ipeľ,,,0
+AWS211902,Bzovík,AWS2,Ipeľ,,,0
+APS240220,Senohrad,APS2,Ipeľ,,,0
+AHS7580,Plášťovce - Krupinica,AHS,Ipeľ,,,0
+AWS211901,Banská Štiavnica,AWS2,Ipeľ,,,0
+APS240320,Ladzany,APS2,Ipeľ,,,0
+AWS211880,Dudince,AWS2,Ipeľ,,,0
+AHS7614,Horné Semerovce - Štiavnica,AHS,Ipeľ,,,0
+AHS7630,Sazdice - Búr,AHS,Ipeľ,,,0
+APS240480,Lontov,APS2,Ipeľ,,,0
+AHS7645,Salka - Ipeľ,AHS,Ipeľ,,,0
+APS252020,Vyšná Slaná,APS2,Slaná,,,0
+AHS7658,Vyšná Slaná - Slaná,AHS,Slaná,,,0
+AHS7662,"Dobšiná, hydrocentrála - odpadový kanál",AHS,Slaná,,,0
+AHS7660,Dobšiná - Dobšinský potok,AHS,Slaná,,,0
+AWS211944,Rožňava,AWS2,Slaná,,,0
+APS252220,Slavošovce,APS2,Slaná,,,0
+APS252260,Kunova Teplica,APS2,Slaná,,,0
+AHS7740,Plešivec - Štítnik,AHS,Slaná,,,0
+APS253040,Muránska Huta - Predná Hora,APS2,Slaná,,,0
+APS253095,Muránska Zdychava-lazy,APS2,Slaná,,,0
+AWS211953,Revúca,AWS2,Slaná,,,0
+AHS7782,Revúca - Zdychava,AHS,Slaná,,,0
+AWS211941,Ratková,AWS2,Slaná,,,0
+APS253260,Skerešovo,APS2,Slaná,,,0
+APS253340,Štrkovec,APS2,Slaná,,,0
+APS254020,Tisovec,APS2,Slaná,,,0
+APS254060,Klenovec,APS2,Slaná,,,0
+AHS7843,Hnúšťa - Klenovská Rimava,AHS,Slaná,,,0
+APS254100,Rimavské Brezovo,APS2,Slaná,,,0
+AWS211910,Lom nad Rimavicou,AWS2,Slaná,,,0
+APS254140,Kokava nad Rimavicou,APS2,Slaná,,,0
+AHS7855,Kokava nad Rimavicou - Rimavica,AHS,Slaná,,,0
+AHS7864,Rimavská Sobota-Sobôtka - Rimava,AHS,Slaná,,,0
+AWS211942,Rimavská Sobota,AWS2,Slaná,,,0
+APS254220,Hajnáčka,APS2,Slaná,,,0
+APS254300,Hostice,APS2,Slaná,,,0
+AHS7870,Jesenské - Gortva,AHS,Slaná,,,0
+AHS7878,Drienčany - Blh (nad VN Teplý Vrch),AHS,Slaná,,,0
+APS254320,Teplý Vrch,APS2,Slaná,,,0
+AHS7900,Vlkyňa - Rimava,AHS,Slaná,,,0
+AWS211946,Štós - Kúpele,AWS2,Bodva,,,0
+AHS8970,Medzev-Nižný Medzev,AHS,Bodva,,,0
+AHS8980,Moldava nad Bodvou - Bodva,AHS,Bodva,,,0
+AWS211947,Moldava nad Bodvou,AWS2,Bodva,,,0
+AHS9003,Bukovec II - Ida,AHS,Bodva,,,0
+APS255120,Malá Ida,APS2,Bodva,,,0
+APS255160,Buzica,APS2,Bodva,,,0
+AHS9013,Janík,AHS,Bodva,,,0
+APS255280,Turňa nad Bodvou,APS2,Bodva,,,0
+AHS9020,Turňa nad Bodvou - Bodva,AHS,Bodva,,,0
+AWS211970,Silica,AWS2,Bodva,,,0
+AHS9065,Hosťovce - Bodva,AHS,Bodva,,,0
+AWS211952,Gánovce,AWS2,Hornád,,,0
+AHS8370,Hranovnica - Hornád,AHS,Hornád,,,0
+APS256100,Hrabušice,APS2,Hornád,,,0
+AHS8390,Hrabušice - Hornád,AHS,Hornád,,,0
+AHS8410,Spišská Nová Ves - Hornád,AHS,Hornád,,,0
+AHS8417,Pod Tepličkou - Teplický Brusník,AHS,Hornád,,,0
+AHS8414,Spišská Nová Ves - Holubnica,AHS,Hornád,,,0
+APS256135,Uloža,APS2,Hornád,,,0
+AWS211949,Spišské Vlachy,AWS2,Hornád,,,0
+AHS8460,Spišské Vlachy - Branisko,AHS,Hornád,,,0
+AHS8430,Spišské Vlachy - Hornád,AHS,Hornád,,,0
+AHS8500,Krompachy - Slovinský potok,AHS,Hornád,,,0
+AHS8510,Margecany - Hornád,AHS,Hornád,,,0
+APS257020,Dobšinská Ľadová Jaskyňa,APS2,Hornád,,,0
+AHS8530,Stratená - Hnilec,AHS,Hornád,,,0
+APS256160,Rudňany,APS2,Hornád,,,0
+APS257060,Nálepkovo,APS2,Hornád,,,0
+AHS8540,Švedlár na Hrabliach - Hnilec,AHS,Hornád,,,0
+AWS211945,Švedlár,AWS2,Hornád,,,0
+APS257140,Smolník,APS2,Hornád,,,0
+APS257180,Gelnica,APS2,Hornád,,,0
+APS258100,Lipovce,APS2,Hornád,,,0
+AHS8768,Ľutina - Ľutinka,AHS,Hornád,,,0
+AHS8680,Obišovce - Svinka,AHS,Hornád,,,0
+AWS211958,Kojšovská hoľa,AWS2,Hornád,,,0
+APS258020,Košická Belá,APS2,Hornád,,,0
+APS258060,Klenov,APS2,Hornád,,,0
+APS259020,Torysky,APS2,Hornád,,,0
+AHS8710,Nižné Repaše - Torysa,AHS,Hornád,,,0
+APS259040,Brezovica nad Torysou,APS2,Hornád,,,0
+AHS8755,Torysa - Torysa,AHS,Hornád,,,0
+AHS8770,Sabinov - Torysa,AHS,Hornád,,,0
+APS259160,Prešov - Planetárium,APS2,Hornád,,,0
+AHS8780,Prešov - Torysa,AHS,Hornád,,,0
+AHS8840,Prešov - Sekčov,AHS,Hornád,,,0
+APS259180,Osikov,APS2,Hornád,,,0
+APS259220,Kapušany,APS2,Hornád,,,0
+AHS8860,Kokošovce - Delňa,AHS,Hornád,,,0
+AWS211967,Zlatá Baňa,AWS2,Hornád,,,0
+APS259340,Ploské,APS2,Hornád,,,0
+AHS8870,Košické Olšany,AHS,Hornád,,,0
+APS260060,Herľany,APS2,Hornád,,,0
+AHS8910,Svinica - Svinický potok,AHS,Hornád,,,0
+APS260100,Vyšný Čaj,APS2,Hornád,,,0
+AHS8920,Bohdanovce,AHS,Hornád,,,0
+AWS211969,Košice - Podhradová,AWS2,Hornád,,,0
+AHS8705,Košice - Hornád,AHS,Hornád,,,0
+AWS211968,Košice - letisko,AWS2,Hornád,,,0
+AHS8930,Ždaňa - Hornád,AHS,Hornád,,,0
+AHS8950,Seňa,AHS,Hornád,,,0
+APS260160,Milhosť,APS2,Hornád,,,0
+AHS9180,Snina - Pčolinka,AHS,Bodrog,,,0
+APS243020,Habura,APS2,Bodrog,,,0
+AWS211977,Medzilaborce,AWS2,Bodrog,,,0
+APS243320,Starina,APS2,Bodrog,,,0
+AHS9170,Snina - Cirocha,AHS,Bodrog,,,0
+APS243220,Papín,APS2,Bodrog,,,0
+APS243380,Zemplínske Hámre,APS2,Bodrog,,,0
+AWS211993,Kamenica nad Cirochou,AWS2,Bodrog,,,0
+AHS9230,Humenné - Laborec,AHS,Bodrog,,,0
+APS244040,Strážske,APS2,Bodrog,,,0
+AWS211982,Michalovce,AWS2,Bodrog,,,0
+AHS9240,Michalovce-Stráňany - Laborec,AHS,Bodrog,,,0
+AHS9245,Michalovce-Žabjany - prítok do VN,AHS,Bodrog,,,0
+AHS9290,Michalovce-Meďov - Laborec,AHS,Bodrog,,,0
+APS245060,Zboj,APS2,Bodrog,,,0
+APS245040,Kolbasov,APS2,Bodrog,,,0
+APS246120,Podhoroď,APS2,Bodrog,,,0
+AWS211984,Orechová,AWS2,Bodrog,,,0
+AWS211995,Vysoká nad Uhom,AWS2,Bodrog,,,0
+APS246080,Remetské Hámre,APS2,Bodrog,,,0
+AHS9320,Lekárovce - Uh,AHS,Bodrog,,,0
+AHS9400,Ižkovce - Laborec,AHS,Bodrog,,,0
+AHS9380,Sobrance - Sobranecký potok,AHS,Bodrog,,,0
+AHS9410,Veľké Kapušany,AHS,Bodrog,,,0
+AHS9435,Gerlachov,AHS,Bodrog,,,0
+APS249040,Malcov,APS2,Bodrog,,,0
+APS249080,Cigeľka,APS2,Bodrog,,,0
+AWS211962,Bardejov,AWS2,Bodrog,,,0
+AHS9450,Bardejov - Topľa,AHS,Bodrog,,,0
+AHS9480,Giraltovce,AHS,Bodrog,,,0
+APS249140,Regetovka,APS2,Bodrog,,,0
+APS249200,Kurimka,APS2,Bodrog,,,0
+AHS9482,Marhaň - Topľa,AHS,Bodrog,,,0
+APS249280,Okrúhle,APS2,Bodrog,,,0
+APS249260,Kuková,APS2,Bodrog,,,0
+AHS9620,Jasenovce - Oľka,AHS,Bodrog,,,0
+AHS9500,Hanušovce nad Topľou - Topľa,AHS,Bodrog,,,0
+APS249320,Hanušovce nad Topľou,APS2,Bodrog,,,0
+APS248020,Nižná Polianka,APS2,Bodrog,,,0
+AWS211974,Roztoky,AWS2,Bodrog,,,0
+APS248100,Dlhoňa,APS2,Bodrog,,,0
+APS248060,Nižný Komárnik,APS2,Bodrog,,,0
+AHS9580,Svidník - Ondava,AHS,Bodrog,,,0
+AWS211976,Stropkov - Tisinec,AWS2,Bodrog,,,0
+APS248180,Turany nad Ondavou,APS2,Bodrog,,,0
+APS248220,Oľka,APS2,Bodrog,,,0
+AHS9603,Miňovce - Ondava,AHS,Bodrog,,,0
+APS248200,Žalobín,APS2,Bodrog,,,0
+AWS211966,Čaklov,AWS2,Bodrog,,,0
+APS249420,Banské,APS2,Bodrog,,,0
+APS250040,Dargov,APS2,Bodrog,,,0
+AWS211978,Trebišov - Milhostov,AWS2,Bodrog,,,0
+APS250140,Hraň,APS2,Bodrog,,,0
+APS247060,Budkovce,APS2,Bodrog,,,0
+APS241020,Veľké Trakany,APS2,Bodrog,,,0
+AWS211979,Somotor,AWS2,Bodrog,,,0
+AHS9660,Zemplínsky Branč,AHS,Bodrog,,,0
+AHS9670,Streda nad Bodrogom - Bodrog,AHS,Bodrog,,,0
+APS251160,Slanská Huta,APS2,Bodrog,,,0
+APS251180,Michaľany,APS2,Bodrog,,,0
+AHS9460,Kľušov-Kľušovská Zábava - Šibská voda,AHS,Bodrog,,,0
+AWS211933,Štrbské Pleso,AWS2,Poprad,,,0
+AWS211959,Tatranská Polianka,AWS2,Poprad,,,0
+AHS7995,Mengusovce - Poprad,AHS,Poprad,,,0
+AHS8020,Svit - Mlynica,AHS,Poprad,,,0
+AWS211934,Poprad,AWS2,Poprad,,,0
+AHS8070,Poprad - Matejovce - Slavkovský potok,AHS,Poprad,,,0
+AWS211931,Tatranská Lomnica - Skalnaté Pleso,AWS2,Poprad,,,0
+AWS211935,Tatranská Lomnica,AWS2,Poprad,,,0
+AWS211957,Stará Lesná,AWS2,Poprad,,,0
+AHS8140,Kežmarok - Ľubica,AHS,Poprad,,,0
+AHS8135,Kežmarok - Poprad,AHS,Poprad,,,0
+APS213020,Rakúske lúky - horáreň Fľak,APS2,Poprad,,,0
+APS213120,Ihľany-Majerka,APS2,Poprad,,,0
+AWS211950,Podolínec,AWS2,Poprad,,,0
+AHS8320,Chmeľnica - Poprad,AHS,Poprad,,,0
+AHS8300,Hniezdne - Kamienka,AHS,Poprad,,,0
+APS213155,Jarabina,APS2,Poprad,,,0
+APS213180,Jakubany,APS2,Poprad,,,0
+AWS211961,Plaveč,AWS2,Poprad,,,0
+AWS211936,Tatranská Javorina,AWS2,Poprad,,,0
+APS211060,Osturňa,APS2,Poprad,,,0
+APS211080,Reľov,APS2,Poprad,,,0
+AHS7950,Červený Kláštor - Dunajec,AHS,Poprad,,,0
+AWS211951,Červený Kláštor,AWS2,Poprad,,,0
+AHS8110,Veľká Lomnica - Skalnatý potok,AHS,Poprad,,,0
