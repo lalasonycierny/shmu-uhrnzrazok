@@ -3,3 +3,4 @@ beautifulsoup4>=4.12
 lxml>=5.0
 pandas>=2.1
 numpy>=1.26
+folium
