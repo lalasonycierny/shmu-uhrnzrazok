@@ -103,7 +103,7 @@ def parse(html: bytes, now_utc: pd.Timestamp | None = None) -> pd.DataFrame:
             a = tds[0].find("a", href=True)
             m = re.search(r"stationId=([A-Za-z0-9]+)", a["href"]) if a else None
             if not m:
-                continue  # riadok „Priemery"
+                continue  # riadok "Priemery"
             tstr = tds[2].get_text(strip=True)
             if tstr not in ts_cache:
                 try:
@@ -290,26 +290,47 @@ def latest_hour() -> pd.Timestamp | None:
 
 
 def short_term(windows=(1, 3, 6, 12, 24, 48, 72)):
-    """Krátkodobé úhrny po staniciach: súčet hodinových hodnôt p1 za posledných N hodín
-    (vyžaduje aspoň 90 % hodín, inak NaN)."""
+    """Krátkodobé úhrny po staniciach.
+
+    1–24 h : hodnoty, ktoré SHMÚ nahlásilo v poslednom snímku (p1, p3, p6, p12, p24) –
+             nezávisia od histórie ani od dier v zbere. Ak chýbajú, súčet hodinových p1
+             (aspoň 90 % hodín okna).
+    48, 72 h: súčet hodinových p1 (aspoň 90 % hodín okna); inak súčet nahlásených
+              24h úhrnov v časoch T, T-24h, (T-48h) – všetky musia existovať.
+    """
     last = latest_hour()
     if last is None:
         return None, None
+    rep_cols = {1: "p1", 3: "p3", 6: "p6", 12: "p12", 24: "p24"}
     hrs = pd.date_range(last - pd.Timedelta(hours=max(windows) - 1), last, freq="h")
     fr = []
     for h in hrs:
         p = raw_path(h)
         if p.exists():
-            f = pd.read_csv(p, dtype={"station_id": str}, usecols=["station_id", "p1"])
+            f = pd.read_csv(p, dtype={"station_id": str},
+                            usecols=["station_id", "p1", "p3", "p6", "p12", "p24"])
             f["h"] = h
             fr.append(f)
-    x = pd.concat(fr)
+    if not fr:
+        return None, None
+    x = pd.concat(fr, ignore_index=True)
+    cur = x[x.h == last].set_index("station_id")
     tab = pd.DataFrame(index=sorted(x.station_id.unique()))
     for w in windows:
         sub = x[x.h > last - pd.Timedelta(hours=w)]
         g = sub.groupby("station_id").p1
-        s = g.sum(min_count=1)
-        tab[f"{w}h"] = s.where(g.count() >= math.ceil(0.9 * w))
+        comp = g.sum(min_count=1).where(g.count() >= math.ceil(0.9 * w)).reindex(tab.index)
+        if w in rep_cols:
+            val = cur[rep_cols[w]].reindex(tab.index).combine_first(comp)
+        elif w % 24 == 0:
+            k = w // 24
+            parts = [x[x.h == last - pd.Timedelta(hours=24 * i)].set_index("station_id").p24
+                     .reindex(tab.index) for i in range(k)]
+            chain = pd.concat(parts, axis=1).sum(axis=1, min_count=k)
+            val = comp.combine_first(chain)
+        else:
+            val = comp
+        tab[f"{w}h"] = val
     return tab, last
 
 
