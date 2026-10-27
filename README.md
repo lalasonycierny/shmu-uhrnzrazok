@@ -1,19 +1,27 @@
 # shmu-uhrnzrazok
 
-Hodinový zber údajov z https://www.shmu.sk/sk/?page=838 (úhrny zrážok 1/3/6/12/24 h),
-štatistiky a mapy (deň / týždeň / mesiac / rok). Beží iba v GitHub Actions, výstup je na GitHub Pages.
+Hodinový zber úhrnov zrážok zo SHMÚ ([Zrážkomerné stanice](https://www.shmu.sk/sk/?page=838))
+a výpočet krátkodobých a dlhodobých štatistík. Údaje SHMÚ sú operatívne, nekorigované.
 
-## Nastavenie (raz)
-1. Nahraj súbory do repozitára (`shmu.py`, `requirements.txt`, `.gitignore`, `.github/workflows/shmu.yml`).
-2. *Settings → Pages → Source:* **GitHub Actions**.
-3. *Settings → Actions → General → Workflow permissions:* **Read and write**.
-4. *Actions → SHMU hourly → Run workflow* (prvý beh). Potom beží sám každú hodinu.
+| Súbor | Čo robí |
+|---|---|
+| `collect.py` | stiahne stránku, uloží `data/raw/YYYY-MM.csv` (UTC) a `data/stations.csv` |
+| `stats.py short` | posledných 72 h → `stats/short_term.md`, `.json`, `short_term_stations.csv`, `hourly_national_72h.csv` |
+| `stats.py long` | celá história → `stats/long_term.md`, `stats/long_term/*.csv` |
+| `.github/workflows/hourly.yml` | spúšťa všetko každú hodinu a commitne výsledok |
 
-## Dáta
-- `data/raw/YYYY/MM/DD/HH.csv` – hodinový snímok (čas v UTC)
-- `data/daily/YYYY/YYYY-MM-DD.csv` – denné súhrny (lokálny čas)
-- `data/stations.csv` – stanice a súradnice (lat/lon sa dopĺňajú automaticky podľa názvu obce
-  cez Nominatim, približne; môžeš ich ručne opraviť, neprepíšu sa)
+## Spustenie lokálne
+```bash
+pip install -r requirements.txt
+python collect.py
+python stats.py all
+```
+Bez GitHub Actions (vlastný server): `10 * * * * cd /cesta/k/repo && python collect.py && python stats.py short`
 
-Denný úhrn = súčet hodinových `p1` hodnôt; ak hodiny chýbajú, použije sa 24h hodnota z polnoci.
-Lokálne: `pip install -r requirements.txt && python shmu.py run`, výstup v `site/`.
+## Ako sa počítajú okná
+* **1h–24h**: hodnoty, ktoré SHMÚ uvádza priamo (nezávisia od vynechaných behov).
+* **48h, 72h**: súčet hodinových hodnôt, ak je okno pokryté aspoň na 90 %; inak súčet nahlásených 24h hodnôt (t, t−24h, t−48h).
+* **Denný úhrn**: 24h hodnota o polnoci lokálneho času; ak chýba, súčet hodín (aspoň 22 z 24).
+* Mesačné/ročné štatistiky len z úplných období (≥ 90 % dní). Mokrý deň ≥ 1 mm, mokrá hodina ≥ 0,1 mm.
+
+Čas v dátach je UTC (`obs_time`), SHMÚ zverejňuje lokálny čas (Europe/Bratislava).
